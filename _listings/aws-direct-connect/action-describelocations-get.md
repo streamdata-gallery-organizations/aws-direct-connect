@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLocations&k=1:
+  /?Action=DescribeLocations:
     get:
       summary: ' Describe Locations '
       description: Returns the list of AWS Direct Connect locations in the current
