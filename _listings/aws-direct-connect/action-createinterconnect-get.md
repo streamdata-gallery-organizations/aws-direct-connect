@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateInterconnect&k=1:
+  /?Action=CreateInterconnect:
     get:
       summary: ' Create Interconnect '
       description: Creates a new interconnect between a AWS Direct Connect partner's
