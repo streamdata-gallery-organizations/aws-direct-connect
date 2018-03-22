@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeInterconnects&k=1:
+  /?Action=DescribeInterconnects:
     get:
       summary: ' Describe Interconnects '
       description: Returns a list of interconnects owned by the AWS account
