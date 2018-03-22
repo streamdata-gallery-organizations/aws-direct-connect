@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateBGPPeer&k=1:
+  /?Action=CreateBGPPeer:
     get:
       summary: ' Create B G P Peer '
       description: Creates a new BGP peer on a specified virtual interface
