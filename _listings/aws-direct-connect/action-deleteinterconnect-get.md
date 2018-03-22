@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteInterconnect&k=1:
+  /?Action=DeleteInterconnect:
     get:
       summary: ' Delete Interconnect '
       description: Deletes the specified interconnect
