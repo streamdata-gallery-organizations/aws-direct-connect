@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeInterconnectLoa&k=1:
+  /?Action=DescribeInterconnectLoa:
     get:
       summary: ' Describe Interconnect Loa '
       description: Returns the LOA-CFA for an Interconnect
