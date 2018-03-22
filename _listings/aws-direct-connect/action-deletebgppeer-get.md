@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteBGPPeer&k=1:
+  /?Action=DeleteBGPPeer:
     get:
       summary: ' Delete B G P Peer '
       description: Deletes a BGP peer on the specified virtual interface that matches
