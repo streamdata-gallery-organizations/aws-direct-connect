@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVirtualGateways&k=1:
+  /?Action=DescribeVirtualGateways:
     get:
       summary: ' Describe Virtual Gateways '
       description: Returns a list of virtual private gateways owned by the AWS account
